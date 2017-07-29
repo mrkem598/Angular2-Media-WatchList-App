@@ -50,10 +50,54 @@ System.register(['@angular/http', 'rxjs/Observable'], function(exports_1, contex
                             isFavorite: true
                         }, {
                             id: 5,
-                            name: "Happy Joe: Cheery Road",
+                            name: "Dana",
                             medium: "Movies",
                             category: "Action",
                             year: 2015,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+                        }, {
+                            id: 6,
+                            name: "Fikir",
+                            medium: "Movies",
+                            category: "Action",
+                            year: 2016,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+                        },
+                         {
+                            id: 7,
+                            name: "24Hours",
+                            medium: "Movies",
+                            category: "Action",
+                            year: 2013,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+                        },
+                         {
+                            id: 8,
+                            name: "America",
+                            medium: "Movies",
+                            category: "Drama",
+                            year: 2016,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+                        },
+                         {
+                            id: 9,
+                            name: "Tax-Cut",
+                            medium: "Movies",
+                            category: "Drama",
+                            year: 2017,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+                        },
+                         {
+                            id: 10,
+                            name: "Hola",
+                            medium: "Movies",
+                            category: "Action",
+                            year: 2016,
                             watchedOn: 1457166565384,
                             isFavorite: false
                         }
