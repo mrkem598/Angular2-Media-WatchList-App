@@ -1,11 +1,11 @@
-<header 
+<header
     [ngClass]="{'medium-movies':medium === 'Movies', 'medium-series':medium === 'Series'}">
     <h2>{{medium}}</h2>
     <div>{{ mediaItems | categoryList }}</div>
 </header>
 <section>
   <mw-media-item
-    [ngClass]="{'medium-movies': mediaItem.medium==='Movies', 'medium-series':mediaItem.medium==='Series'}" 
+    [ngClass]="{'medium-movies': mediaItem.medium==='Movies', 'medium-series':mediaItem.medium==='Series'}"
     *ngFor="let mediaItem of mediaItems"
     [mediaItem]="mediaItem"
     (delete)="onMediaItemDelete($event)"></mw-media-item>
@@ -14,4 +14,19 @@
   <a routerLink="/add">
     <img src="media/01.png" class="icon" />
   </a>
+<h1>--------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------</h1>
+  <div>Question on the App</div>
+  <div>
+    <p class="blocktext">Copyright &copy; 2017, Mohammed Kemal</p>
+      <div class="footer-icons ">
+        <div class="linkedin">
+          <a href="mailto:mohakemal9@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+          <a href="https://https://www.linkedin.com/in/moh-kemal-3b8591136/" target="_blank"><i class="fa fa-linkedin-square fa-3x"> </i></a>
+          <a href="https://https://https://github.com/mrkem598" target="_blank"><i class="fa fa-github-square fa-3x"> </i></a>
+          <a href="https://www.facebook.com " target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+        </div>
+      </div>
+  </div>
 </footer>

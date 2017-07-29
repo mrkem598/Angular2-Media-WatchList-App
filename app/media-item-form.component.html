@@ -33,9 +33,9 @@
       <label for="year">Year</label>
       <input type="text" name="year" id="year" maxlength="4" formControlName="year">
       <div *ngIf="form.controls.year.errors?.year" class="error">
-        Must be between 
-        {{form.controls.year.errors?.year.min}} 
-        and 
+        Must be between
+        {{form.controls.year.errors?.year.min}}
+        and
         {{form.controls.year.errors?.year.max}}
       </div>
     </li>
