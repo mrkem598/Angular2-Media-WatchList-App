@@ -1,4 +1,4 @@
-# Angular2-Media-WatchList-App
+# MyWatchList-Angular2App
 
 Media watch List app is a single page Angular2 application!
 <img width="1436" alt="screen shot 2017-07-29 at 4 28 49 pm" src="https://user-images.githubusercontent.com/23619819/28748059-90600c48-747b-11e7-8d3e-6119429ea794.png">
