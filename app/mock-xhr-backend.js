@@ -17,7 +17,7 @@ System.register(['@angular/http', 'rxjs/Observable'], function(exports_1, contex
                     this._mediaItems = [
                         {
                             id: 1,
-                            name: "Firebug",
+                            name: "Foxlife",
                             medium: "Series",
                             category: "Science Fiction",
                             year: 2010,
@@ -26,78 +26,106 @@ System.register(['@angular/http', 'rxjs/Observable'], function(exports_1, contex
                         },
                         {
                             id: 2,
-                            name: "The Small Tall",
+                            name: "BigBoss",
+                            medium: "Movies",
+                            category: "Comedy",
+                            year: 2015,
+                            watchedOn: null,
+                            isFavorite: true
+                         },
+                        {
+                            id: 3,
+                            name: "Friends",
+                            medium: "Comedy",
+                            category: "Series",
+                            year: 2010,
+                            watchedOn: 1294166565384,
+                            isFavorite: false
+                        },
+                        {
+                            id: 4,
+                            name: "BigLove",
                             medium: "Movies",
                             category: "Comedy",
                             year: 2015,
                             watchedOn: null,
                             isFavorite: true
                         }, {
-                            id: 3,
-                            name: "The Redemption",
+                            id: 5,
+                            name: "Farmers",
                             medium: "Movies",
                             category: "Action",
                             year: 2016,
                             watchedOn: null,
                             isFavorite: false
                         }, {
-                            id: 4,
-                            name: "Hoopers",
+                            id: 6,
+                            name: "Dana",
                             medium: "Series",
                             category: "Drama",
                             year: null,
                             watchedOn: null,
                             isFavorite: true
                         }, {
-                            id: 5,
-                            name: "Dana",
+                            id: 7,
+                            name: "World",
+                            medium: "Movies",
+                            category: "Action",
+                            year: 2017,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+
+                        }, {
+                            id: 8,
+                            name: "Titanic",
+                            medium: "Movies",
+                            category: "Romance",
+                            year: 2012,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+
+                        }, {
+                            id: 9,
+                            name: "Wash-Life",
+                            medium: "Movies",
+                            category: "Action",
+                            year: 2014,
+                            watchedOn: 1457166565384,
+                            isFavorite: false
+
+                        }, {
+                            id: 10,
+                            name: "LioneHood",
                             medium: "Movies",
                             category: "Action",
                             year: 2015,
                             watchedOn: 1457166565384,
                             isFavorite: false
+
                         }, {
-                            id: 6,
-                            name: "Fikir",
+                            id: 11,
+                            name: "Star War",
                             medium: "Movies",
                             category: "Action",
-                            year: 2016,
+                            year: 2015,
                             watchedOn: 1457166565384,
                             isFavorite: false
-                        },
-                         {
-                            id: 7,
-                            name: "24Hours",
-                            medium: "Movies",
+
+                        }, {
+                            id: 12,
+                            name: "World",
+                            medium: "Series",
                             category: "Action",
-                            year: 2013,
-                            watchedOn: 1457166565384,
-                            isFavorite: false
-                        },
-                         {
-                            id: 8,
-                            name: "America",
-                            medium: "Movies",
-                            category: "Drama",
-                            year: 2016,
-                            watchedOn: 1457166565384,
-                            isFavorite: false
-                        },
-                         {
-                            id: 9,
-                            name: "Tax-Cut",
-                            medium: "Movies",
-                            category: "Drama",
                             year: 2017,
                             watchedOn: 1457166565384,
                             isFavorite: false
-                        },
-                         {
-                            id: 10,
-                            name: "Hola",
-                            medium: "Movies",
+
+                        }, {
+                            id: 13,
+                            name: "24Hours",
+                            medium: "Series",
                             category: "Action",
-                            year: 2016,
+                            year: 2010,
                             watchedOn: 1457166565384,
                             isFavorite: false
                         }

@@ -1,11 +1,11 @@
 {
-  "name": "Angular2-Media-WatchList-App",
+  "name": "MyWatchList-Angular2App",
   "version": "1.0.0",
   "author": "Mohammed Kemal",
   "description": "A single page angular2 application for media watch list!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrkem598/Angular2-Media-WatchList-App.git"
+    "url": "https://github.com/mrkem598/MyWatchList-Angular2App.git"
   },
   "scripts": {
     "clean": "rimraf app/**/*.js app/**/*.js.map",

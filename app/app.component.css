@@ -6,25 +6,28 @@
 nav {
   display: flex;
   flex-direction: column;
-  width: 68px;
-  background-color: #53ace4;
+  width: 78px;
+  background-color: orange;
 }
 nav .icon {
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   margin: 10px;
 }
+
 section {
   width: 100%;
-  background-color: #32435b;
+  background-color: purple;
 }
 section > header {
   color: #ffffff;
   padding: 10px;
+  text-align: center;
 }
 section > header > h1 {
   font-size: 2em;
 }
 section > header .description {
   font-style: italic;
+  text-align: left;
 }

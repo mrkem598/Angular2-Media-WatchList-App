@@ -1,15 +1,15 @@
 :host {
   display: flex;
   flex-direction: column;
-  width: 140px;
-  height: 200px;
+  width: 200px;
+  height: 220px;
   border: 2px solid;
-  background-color: #29394b;
+  background-color: green;
   padding: 10px;
   color: #bdc2c5;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 2.2em;
   flex: 1;
 }
 :host.medium-movies {
@@ -25,13 +25,13 @@ h2 {
   color: #45bf94;
 }
 .tools {
-  margin-top: 8px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 .favorite {
-  width: 24px;
+  width: 40px;
   height: 24px;
   fill: #bdc2c5;
 }
