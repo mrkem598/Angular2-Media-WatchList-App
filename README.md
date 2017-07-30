@@ -2,7 +2,7 @@
 
 # My watch List is a single page Angular2 web application. Add media lists to the registry focus it down to just movies or series, and delete media items from the list if it required. The app  will swap out views for lists, and the media item forum. It will be a client side app, with no server requests after the first load. 
 
-        Technologies Used: HTML5, CSS3, TypeScript, JavaScript, Angular2, node 
+        Technologies Used: HTML5, CSS3, TypeScript, JavaScript, Angular2, node , lite server
         and also I have used built in and custom validators.
 
 <img width="1360" alt="screen shot 2017-07-29 at 6 10 27 pm" src="https://user-images.githubusercontent.com/23619819/28748596-abe0a6b8-7489-11e7-967c-d5088869fe0f.png">
